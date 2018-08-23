@@ -1,0 +1,188 @@
+/* Split the screen in half */
+.split {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  }
+
+  agm-map{
+    height: 500px;
+}
+.map{
+    width: 60%;
+    float: left;
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    height: 600px;
+  }
+.statistic{
+    width: 40%;
+    float: right;
+    clear: none;
+    color: white;
+  }
+  .designation{
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    background-color:seagreen;
+    text-transform: capitalize;
+  }
+  .location{
+    width: 60%;
+    float: left;
+    clear:both;
+
+  }
+  .activities{
+    width: 40%;
+    float: right;
+    clear: none;
+    text-align: center;
+  }
+  .Tright{
+    align-content: center;
+    padding-right: 5px;
+    float: right;
+  }
+  .Tleft{
+    align-content: left;
+    padding-left: 5px;
+  }
+  .interactions{
+    width: 100%;
+  }
+  .Pbuttons{
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    color: white;
+    background-color: seagreen;
+  }
+  .tableSummary{
+    margin: 5%;
+  }
+  .bars{
+    width: 60%;
+    background-color: azure;
+    float: left;
+    clear: both;
+    padding: 10px;
+    color: black;
+  }
+  .progressbars{
+    width:100%;
+    margin: 0px;
+    padding-top: 10px;
+  }
+  .bname{
+    float: left;
+    width: 20%;
+    clear: both;
+  }
+  .bstat{
+float: right;
+width: 80%;
+clear:none;
+  }
+  .ftext{
+    padding:10px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+  }
+  .caddress{
+    padding: 10px;
+    background-color:darkseagreen;
+
+  }
+  .contacts{
+    width: 40%;
+    float: right;
+    clear: none;
+  }
+  .flags{
+    color: black
+  }
+  .issues{
+    width: 100%;
+    padding:10px;
+    color: white;
+    background-color: crimson;
+  }
+  .Ttitle{
+    width: 40%;
+    clear: both;
+    float: left;
+  }
+  .Ttopics{
+    width: 60%;
+    clear: none;
+    float:right;
+  }
+  #map { height: 100%; margin: 0; padding: 0; overflow: hidden; }
+  .nicebox {
+    position: absolute;
+    text-align: center;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 13px;
+    z-index: 5;
+    box-shadow: 0 4px 6px -4px #333;
+    padding: 5px 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(245,245,245,1) 100%);
+    border: rgb(229, 229, 229) 1px solid;
+  }
+  #controls {
+    top: 10px;
+    left: 110px;
+    width: 360px;
+    height: 45px;
+  }
+  #data-box {
+    top: 10px;
+    left: 500px;
+    height: 45px;
+    line-height: 45px;
+    display: none;
+  }
+  #census-variable {
+    width: 360px;
+    height: 20px;
+  }
+  #legend { display: flex; display: -webkit-box; padding-top: 7px }
+  .color-key {
+    background: linear-gradient(to right,
+      hsl(5, 69%, 54%) 0%,
+      hsl(29, 71%, 51%) 17%,
+      hsl(54, 74%, 47%) 33%,
+      hsl(78, 76%, 44%) 50%,
+      hsl(102, 78%, 41%) 67%,
+      hsl(127, 81%, 37%) 83%,
+      hsl(151, 83%, 34%) 100%);
+    flex: 1;
+    -webkit-box-flex: 1;
+    margin: 0 5px;
+    text-align: left;
+    font-size: 1.0em;
+    line-height: 1.0em;
+  }
+  #data-value { font-size: 2.0em; font-weight: bold }
+  #data-label { font-size: 2.0em; font-weight: normal; padding-right: 10px; }
+  #data-label:after { content: ':' }
+  /* #data-caret { margin-left: -5px; display: none; font-size: 14px; width: 14px}
+   */
+/*
+Mobile
+*/
+/* .statistic{
+  float: right;
+  clear: none;
+  color: white;
+}
+
+.bname{
+  float: left;
+  clear: both;
+} */

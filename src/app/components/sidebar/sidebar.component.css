@@ -1,0 +1,24 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+    padding: 0px;
+  }
+  
+  /*side bar*/
+  .sidebar{
+    width: 100%;
+    padding:15px;
+    background-color:gainsboro;
+  }
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: white;
+    width: 20%;
+  }
+  
+  

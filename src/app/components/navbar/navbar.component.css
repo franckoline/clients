@@ -1,0 +1,33 @@
+/*footer style*/
+.header{
+  background-color:lightgrey;
+  height: 50px;
+  text-align:left;
+  width:100%;
+  float: left;
+  color:seagreen;
+}
+.logo{
+  width: 30%;
+  float: left;
+  clear: both;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.menu{
+  width: 60%;
+  float: left;
+  margin: 10px;
+  text-align: left;
+}
+.campaign{
+  width: 25%;
+  float: left;
+  clear: none;
+  color: white;
+  -webkit-text-size-adjust: 12px;
+  text-align: center;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: seagreen;
+}
